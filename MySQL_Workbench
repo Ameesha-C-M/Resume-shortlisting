@@ -1,0 +1,9 @@
+use resume_sorting;
+create table shortlisted_resumes(
+   interview_date varchar(255),
+   name varchar(255),
+   email varchar(255),
+   job_category varchar(255));
+
+select * from shortlisted_resumes;
+truncate shortlisted_resumes;
